@@ -1,7 +1,7 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 const backButtonElement = document.getElementById('back-button'); // Back button
-const speed = 30; /* The speed/duration of the effect in milliseconds */
+const speed = 10; /* The speed/duration of the effect in milliseconds */
 let typingTimeout; // Save current timeout
 let historyStack;
 
